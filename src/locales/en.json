@@ -15,7 +15,7 @@
     "caregiver_description": "Notify a healthcare provider in your long-term care facility. Living in a long-term care facility or nursing home may put you at risk for severe illness.\n\nTell a caregiver at the facility that you are sick and need to see a medical provider as soon as possible.",
     "caregiver_title": "Notify Caregiver",
     "complete_cta": "Done",
-    "complete_description": "By sharing your health status and location history anonymously with your community, you are being proactive about fighting the spread of COVID-19.",
+    "complete_description": "By sharing your health status and exposure history anonymously with your community, you are being proactive about fighting the spread of COVID-19.",
     "complete_title": "Thanks for keeping your community safe!",
     "distancing_cta": "Next",
     "distancing_description": "Please follow your local, state, or national guidelines for social distancing and Personal Protection Equipment (PPE) like masks and/or gloves. No additional action is needed at this time.",
@@ -67,7 +67,7 @@
   },
   "exposure_datum": {
     "no_data": {
-      "explanation": "This happens when location access is disabled for your PathCheck app or the date selected was more than 14 days ago. No exposure notifications will be available for this day."
+      "explanation": "This happens when exposure notifications are disabled for your PathCheck app or the date selected was too long ago. No exposure notifications will be available for this day."
     },
     "no_known": {
       "explanation": "Your exposure history will be updated if this changes in the future."
@@ -97,7 +97,7 @@
       "button_text": "See Recommendations",
       "ha_self_assessment": "Follow the advice from {{healthAuthorityName}} about what to do next.",
       "maybe_exposed": "You may have been exposed to COVID-19",
-      "possible_crossed_paths": "Based on your location history, it is possible that you may have crossed paths with somebody who has been diagnosed with COVID-19.",
+      "possible_crossed_paths": "Based on your exposure history, it is possible that you may have been within 10 feet of somebody who has been diagnosed with COVID-19.",
       "possible_infection_precaution": "This does not mean that you are infected, but you should take precautions anyway. People who don't exhibit symptoms can sometimes still be contagious."
     },
     "updated": "Updated",
@@ -184,7 +184,7 @@
   },
   "errors": {
     "title": "Unknown Error",
-    "description": "An error has ocurred. Please reload the app.",
+    "description": "An error has occurred. Please reload the app.",
     "reload": "Reload"
   }
 }
